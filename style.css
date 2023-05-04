@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-  .nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,8 +12,9 @@
     height: 70px;
     margin: 0;
     padding: 20px;
-  }
-  .nav-list{
+}
+
+.nav-list {
     list-style: none;
     list-style-type: none;
     display: flex;
@@ -21,4 +22,13 @@
     gap: 5rem;
     margin-right: 5px;
     padding: 10px;
-  }
+}
+
+.nav-btn {
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: gray;
+    color: aliceblue;
+}
